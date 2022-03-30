@@ -11,7 +11,6 @@ import java.util.List;
 
 @Entity
 @Data
-@AllArgsConstructor @NoArgsConstructor
 public class Employer implements Serializable {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
