@@ -1,7 +1,9 @@
-package com.example.authetificationconge.controller;
+package com.example.authetificationconge.sec.controller;
 
-import com.example.authetificationconge.entities.Employer;
-import com.example.authetificationconge.services.EmployerService;
+
+import com.example.authetificationconge.sec.entities.Employer;
+import com.example.authetificationconge.sec.services.EmployerService;
+import lombok.Data;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,4 +30,16 @@ public class EmployerController {
     public  Employer saveEmployer(@RequestBody Employer employer){
         return employerService.saveEmployer(employer);
     }
+
+
+
+    @Data
+    class FormUser {
+
+        private String username;
+        private String confirmedPassword;
+        private String roleName;
+
+    }
 }
+

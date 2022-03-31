@@ -1,9 +1,9 @@
 package com.example.authetificationconge;
 
-import com.example.authetificationconge.entities.Employer;
-import com.example.authetificationconge.entities.Roles;
-import com.example.authetificationconge.services.EmployerService;
-import com.example.authetificationconge.services.RoleService;
+import com.example.authetificationconge.sec.entities.Employer;
+import com.example.authetificationconge.sec.entities.Roles;
+import com.example.authetificationconge.sec.services.EmployerService;
+import com.example.authetificationconge.sec.services.RoleService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

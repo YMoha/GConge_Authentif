@@ -1,4 +1,4 @@
-package com.example.authetificationconge.entities;
+package com.example.authetificationconge.sec.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.example.authetificationconge.repository;
+package com.example.authetificationconge.sec.repository;
 
 
-import com.example.authetificationconge.entities.Employer;
+import com.example.authetificationconge.sec.entities.Employer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

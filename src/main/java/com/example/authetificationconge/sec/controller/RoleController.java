@@ -1,9 +1,9 @@
-package com.example.authetificationconge.controller;
+package com.example.authetificationconge.sec.controller;
 
 
 
-import com.example.authetificationconge.entities.Roles;
-import com.example.authetificationconge.services.RoleService;
+import com.example.authetificationconge.sec.entities.Roles;
+import com.example.authetificationconge.sec.services.RoleService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

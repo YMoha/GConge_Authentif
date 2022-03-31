@@ -1,8 +1,8 @@
-package com.example.authetificationconge.services;
+package com.example.authetificationconge.sec.services;
 
 
-import com.example.authetificationconge.entities.Roles;
-import com.example.authetificationconge.repository.RoleRepository;
+import com.example.authetificationconge.sec.entities.Roles;
+import com.example.authetificationconge.sec.repository.RoleRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

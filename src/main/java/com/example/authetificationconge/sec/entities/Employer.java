@@ -1,12 +1,11 @@
-package com.example.authetificationconge.entities;
+package com.example.authetificationconge.sec.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -19,7 +18,7 @@ public class Employer implements Serializable {
     private String username;
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
-    @ManyToMany(fetch = FetchType.LAZY)
-    private List<Roles> roles;
+    @ManyToMany
+    private List<Roles> roles=new ArrayList<>();
 }
 
